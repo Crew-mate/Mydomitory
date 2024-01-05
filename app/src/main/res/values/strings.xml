@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Domitory</string>
+    <string name="login">Login your Account</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintPassword">Password</string>
+    <string name="signin_button">Sign in</string>
+</resources>
