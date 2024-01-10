@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "822789830311",
+    "project_id": "mydomitory-1ed3b",
+    "storage_bucket": "mydomitory-1ed3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822789830311:android:94e4862aca0435b6a2cd82",
+        "android_client_info": {
+          "package_name": "com.example.mydomitory"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqUK0R3rf0RJKsBHIfT9MpHYsI_SaIm8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
