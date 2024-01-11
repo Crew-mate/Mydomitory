@@ -14,14 +14,14 @@
         android:src="@drawable/logo"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
-    />
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
         android:textColor="@color/app_name_color"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:textStyle="bold"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
@@ -30,23 +30,60 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/login"
-        android:layout_marginTop="30dp"
-        android:textSize="20dp"
+        android:text="@string/signup_text"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"
         android:textColor="@color/login"
         android:textStyle="bold"
         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+
+        <EditText
+            android:id="@+id/name_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/signup_border"
+            android:hint="@string/signup_name"
+            android:padding="17dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/grade_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/signup_border"
+            android:hint="@string/signup_grade"
+            android:padding="17dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/shcool_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/boder"
+        android:hint="@string/hintSchool"
+        android:padding="17dp"
+        android:textStyle="bold" />
+
 
     <EditText
         android:id="@+id/email_edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/hintEmail"
-        android:textStyle="bold"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="25dp"
         android:background="@drawable/boder"
+        android:hint="@string/hintEmail"
         android:padding="17dp"
-        />
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/pass_edit"
@@ -54,7 +91,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/hintPassword"
         android:textColor="@color/hintPassword"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="25dp"
         android:background="@drawable/boder"
         android:textStyle="bold"
         android:padding="17dp"
@@ -66,7 +103,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/button_border"
         android:padding="17dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="25dp"
         android:text="@string/signin_button"
         android:textColor="@color/signin_button"
         android:textSize="17sp"
@@ -80,7 +117,7 @@
         android:textStyle="bold"
         android:textColor="@color/hintPassword"
         android:gravity="center"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="25dp"/>
 
 
 </LinearLayout>
