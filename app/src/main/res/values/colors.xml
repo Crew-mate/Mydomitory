@@ -6,5 +6,7 @@
     <color name="login">#8C000000</color>
     <color name="hintEmail">#66000000</color>
     <color name="hintPassword">#66000000</color>
+    <color name="signup_button">#EB4A4A4A</color>
     <color name="signin_button">#EB4A4A4A</color>
+    <color name="intro_background">#17FFC61B</color>
 </resources>
