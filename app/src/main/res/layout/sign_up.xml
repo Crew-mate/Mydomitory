@@ -98,21 +98,21 @@
         android:inputType="textPassword"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/signin_btn"
+        android:id="@+id/signup_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/button_border"
         android:padding="17dp"
         android:layout_marginTop="25dp"
-        android:text="@string/signin_button"
-        android:textColor="@color/signin_button"
+        android:text="@string/signup_button"
+        android:textColor="@color/signup_button"
         android:textSize="17sp"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="- on sign in with -"
+        android:text="- on sign up with -"
         android:textSize="15sp"
         android:textStyle="bold"
         android:textColor="@color/hintPassword"
