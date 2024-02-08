@@ -7,13 +7,13 @@
     android:orientation="vertical"
     android:background="@color/intro_background"
     android:gravity="center_vertical|center_horizontal"
-    tools:context=".introActivity2">
+    tools:context=".introActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/logo"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="100dp"
         />
     <TextView
         android:layout_width="match_parent"
@@ -26,11 +26,11 @@
         android:textColor="@color/app_name_color"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="392dp"
+        android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:background="@drawable/button_border"
         android:padding="17dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="250dp"
         android:text="@string/signup_button"
         android:textColor="@color/signup_button"
         android:textSize="17sp"
@@ -39,7 +39,7 @@
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="392dp"
+        android:layout_width="370dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:background="@drawable/signup_border"
